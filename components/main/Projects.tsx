@@ -10,78 +10,85 @@ const Projects = () => {
       <h1 className="text-[40px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-pink-600 py-20">
         PORTFOLIO
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="h-full w-full flex flex-col md:flex-row gap-5 px-10">
         <ProjectCard
 
-          src="/word-counter.png"
+          src="/45-questions.jpg"
           title="45 Questions Assignment"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="https://github.com/RidaNaz/
+          assignment_45_ques.git"
 
         />
         <ProjectCard
-          src="/CardImage.png"
+          src="/calculator.jpg"
           title="Calculator"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="https://github.com/RidaNaz/
+          project_calculator.git"
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
+          src="/number-guessing-game.jpg"
           title="Number Guessing Game"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="https://github.com/RidaNaz/
+          project_number_guessing_game.git"
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
+          src="/atm.jpg"
           title="ATM"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="https://github.com/RidaNaz/
+          project_atm.git"
         />
-        </div>
-        <br />
-        <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-          <ProjectCard
-            src="/NextWebsite.png"
-            title="Todo List"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          />
-          <ProjectCard
-            src="/SpaceWebsite.png"
-            title="Currency Converter"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          />
-          <ProjectCard
-            src="/CardImage.png"
-            title="Word Counter"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          />
-          <ProjectCard
-            src="/SpaceWebsite.png"
-            title="Student Management System"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          />
-        </div>
-        <br />
-        <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-          <ProjectCard
-            src="/SpaceWebsite.png"
-            title="Adventure Game"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          />
-          <ProjectCard
-            src="/SpaceWebsite.png"
-            title="Quiz"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          />
-          <ProjectCard
-            src="/SpaceWebsite.png"
-            title="Countdown Timer"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          />
-          <ProjectCard
-            src="/SpaceWebsite.png"
-            title="OOP MyBank"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          />
-        </div>
       </div>
-    );
+      <br />
+      <div className="h-full w-full flex flex-col md:flex-row gap-5 px-10">
+        <ProjectCard
+          src="/currency-converter.jpg"
+          title="Currency Converter"
+          description="https://github.com/RidaNaz/
+          project_currency_converter.git"
+        />
+        <ProjectCard
+          src="/word-counter.jpg"
+          title="Word Counter"
+          description="https://github.com/RidaNaz/
+          project_word_counter.git"
+        />
+        <ProjectCard
+          src="/student-managemnt-system.jpg"
+          title="Student Management System"
+          description="https://github.com/RidaNaz/
+          project_student_management_system.git"
+        />
+        <ProjectCard
+          src="/adventure-game.jpg"
+          title="Adventure Game"
+          description="https://github.com/RidaNaz/
+          project_adventure_game.git"
+        />
+      </div>
+      <br />
+      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 justify-center items-center">
+
+        <ProjectCard
+          src="/quiz.jpg"
+          title="Quiz"
+         description="https://github.com/RidaNaz/
+         project_quiz.git"
+        />
+        <ProjectCard
+          src="/countdown-timer.jpg"
+          title="Countdown Timer"
+          description="https://github.com/RidaNaz/
+          project_countdown_timer.git"
+        />
+        <ProjectCard
+          src="/oop-mybank.jpg"
+          title="OOP MyBank"
+          description="https://github.com/RidaNaz/
+          project_oop_mybank.git"
+        />
+      </div>
+    </div>
+  );
 };
 
-      export default Projects;
+export default Projects;

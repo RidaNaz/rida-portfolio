@@ -30,7 +30,7 @@ import {
             />
           ))}
         </div>
-        <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        <div className="flex flex-row justify-around flex-wrap mt-4 gap-10 items-center">
           {Graphics_skill.map((image, index) => (
             <SkillDataProvider
               key={index}
