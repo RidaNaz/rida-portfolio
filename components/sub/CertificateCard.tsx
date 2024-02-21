@@ -14,12 +14,13 @@ const CertificateCard = ({ src, title, description }: Props) => {
         src={src}
         alt={title}
         width={1000}
-        height={1000}
+        height={500}
         className="w-full object-contain"
       />
 
       <div className="relative p-4">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
+        <br/>
         <p className="mt-2 text-gray-300">{description}</p>
       </div>
     </div>
