@@ -28,7 +28,7 @@ const HeroContent = () => {
           className='flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto'
         >
           <span>
-            Here's
+            Here&rsquo;s
             <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-pink-600"> Rida Naz </span>
             Project Experience
           </span>
@@ -38,7 +38,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="text-lg text-gray-400 my-5n max-w-[600px]"
         >
-          I'm a Frontend Web Developer with high skills in website development. Checkout my Skills, Certificates and Portfolio.
+         I &apos;m a Frontend Web Developer with high skills in website development. Checkout my Skills, Certificates and Portfolio.
 
         </motion.p>
         <motion.a
