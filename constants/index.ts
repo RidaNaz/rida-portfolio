@@ -106,7 +106,6 @@ export const Skill_data = [
   ];
   
   
-  
   // export const Frontend_skill = [
   //   {
   //     skill_name: "Html 5",
@@ -249,7 +248,6 @@ export const Skill_data = [
   //   },
   
   // ];
-  
   
   
   export const Other_skill = [
