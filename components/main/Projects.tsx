@@ -12,7 +12,11 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-5 px-10">
         <ProjectCard
-
+          src="/portfolio-web.jpg"
+          title="My Portfolio Web"
+          description="Welcome to my portfolio website built on Next.js! Here, you'll find a showcase of my professional skills, cretificates & projects."
+        />
+        <ProjectCard
           src="/45-questions.jpg"
           title="45 Questions Assignment"
           description="https://github.com/RidaNaz/
@@ -30,15 +34,15 @@ const Projects = () => {
           description="https://github.com/RidaNaz/
           project_number_guessing_game.git"
         />
+      </div>
+      <br />
+      <div className="h-full w-full flex flex-col md:flex-row gap-5 px-10">
         <ProjectCard
           src="/atm.jpg"
           title="ATM"
           description="https://github.com/RidaNaz/
           project_atm.git"
         />
-      </div>
-      <br />
-      <div className="h-full w-full flex flex-col md:flex-row gap-5 px-10">
         <ProjectCard
           src="/currency-converter.jpg"
           title="Currency Converter"
@@ -57,20 +61,19 @@ const Projects = () => {
           description="https://github.com/RidaNaz/
           project_student_management_system.git"
         />
+      </div>
+      <br />
+      <div className="h-full w-full flex flex-col md:flex-row gap-5 px-10">
         <ProjectCard
           src="/adventure-game.jpg"
           title="Adventure Game"
           description="https://github.com/RidaNaz/
           project_adventure_game.git"
         />
-      </div>
-      <br />
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 justify-center items-center">
-
         <ProjectCard
           src="/quiz.jpg"
           title="Quiz"
-         description="https://github.com/RidaNaz/
+          description="https://github.com/RidaNaz/
          project_quiz.git"
         />
         <ProjectCard

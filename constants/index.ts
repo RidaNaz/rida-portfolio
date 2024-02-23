@@ -30,6 +30,12 @@ export const Skill_data = [
       height: 70,
     },
     {
+      skill_name: "Next js 14",
+      Image: "/next.png",
+      width: 80,
+      height: 80,
+    },
+    {
       skill_name: "Tailwind Css",
       Image: "/tailwind.png",
       width: 80,
@@ -47,12 +53,6 @@ export const Skill_data = [
     //   width: 80,
     //   height: 80,
     // },
-    {
-      skill_name: "Next js 14",
-      Image: "/next.png",
-      width: 80,
-      height: 80,
-    },
     {
       skill_name: "React",
       Image: "/react.png",
@@ -96,12 +96,12 @@ export const Skill_data = [
       src: "/linkedin.svg",
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
-    },
-    {
       name: "Instagram",
       src: "/instagram.svg",
+    },
+    {
+      name: "Facebook",
+      src: "/facebook.svg",
     }
   ];
   
