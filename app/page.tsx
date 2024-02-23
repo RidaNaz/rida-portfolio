@@ -3,7 +3,7 @@ import Skills from "@/components/main/Skills";
 // import Education from "@/components/main/Education"
 import Projects from "@/components/main/Projects"
 import Certificate from "@/components/main/Certificate"
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Home() {
   return (

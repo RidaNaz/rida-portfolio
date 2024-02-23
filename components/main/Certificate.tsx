@@ -5,7 +5,7 @@ const Certificate = () => {
   return (
     <div
       className="flex flex-col items-center justify-center py-20"
-      id="certificates"
+      id="certificates" 
     >
       <h1 className="text-[40px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-pink-600 py-20">
         CERTIFICATES

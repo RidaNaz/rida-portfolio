@@ -46,7 +46,8 @@ const Navbar = () => {
               width={24}
               height={24}
             />
-          ))}
+          ))
+          }
         </div>
       </div>
     </div>

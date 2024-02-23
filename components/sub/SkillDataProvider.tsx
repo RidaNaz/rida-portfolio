@@ -39,7 +39,6 @@ height={height}
 alt='skill image'
     />
   </motion.div>
-  )
-}
+  )}
 
 export default SkillDataProvider

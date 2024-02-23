@@ -20,7 +20,7 @@ const ProjectCard = ({ src, title, description }: Props) => {
       />
 
       <div className="relative p-4">
-        <h1 className="text-2xl font-semibold text-white text-center">{title}</h1>
+        <h1 className="text-2xl font-semibold text-white text-center">{title}</h1> 
         <br/>
         <p className="mt-2 text-center text-gray-300">{description}</p>
       </div>

@@ -17,7 +17,6 @@ const Projects = () => {
           title="45 Questions Assignment"
           description="https://github.com/RidaNaz/
           assignment_45_ques.git"
-
         />
         <ProjectCard
           src="/calculator.jpg"

@@ -56,7 +56,7 @@ const HeroContent = () => {
           height={500}
           width={500}
         />
-      </motion.div>
+      </motion.div> 
     </motion.div>
   )
 }
